@@ -2,7 +2,7 @@ const mysql = require('mysql');
 
 // MySQL database connection
 const db = mysql.createConnection({
-  host: '0.0.0.0/0',
+  host: '127.0.0.1',
   user: 'root',
   password: '',
   database: 'trijal_group',
